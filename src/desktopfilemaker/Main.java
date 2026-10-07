@@ -54,7 +54,7 @@ public class Main extends javax.swing.JFrame {
         String iconPath = txtIcon.getText().trim();
         if (iconPath.isEmpty()) {
             lblIconPreview.setIcon(null);
-            lblIconPreview.setText("[ No Icon ]");
+            lblIconPreview.setText("N/A");
             return;
         }
 
